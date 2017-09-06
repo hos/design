@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1400"
-   height="900"
-   viewBox="0 0 370.41666 238.12501"
+   height="557.04126"
+   viewBox="0 0 370.41666 147.38384"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="432.97289"
-     inkscape:cy="358.34465"
+     inkscape:zoom="0.7"
+     inkscape:cx="422.63168"
+     inkscape:cy="32.076394"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -42,31 +42,35 @@
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-global="true"
-     inkscape:snap-page="true">
+     inkscape:snap-global="false"
+     inkscape:snap-page="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <sodipodi:guide
-       position="52.916667,170.84525"
+       position="52.916668,80.104083"
        orientation="1,0"
        id="guide838"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="268.3631,199.94941"
+       position="0,120.40176"
        orientation="0,1"
        id="guide840"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="246.4225,39.6875"
+       position="194.27976,27.592246"
        orientation="0,1"
        id="guide859"
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="317.5,155.55087"
+       position="317.5,64.809703"
        orientation="1,0"
        id="guide861"
        inkscape:locked="false"
@@ -81,7 +85,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -89,62 +93,66 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-58.874983)">
+     transform="translate(0,-58.874985)">
     <path
-       style="fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       d="M 0,58.874985 H 370.41666 V 296.99998 H 0 Z"
+       style="fill:#ffc61e;fill-opacity:1;stroke:none;stroke-width:0.09999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 0,58.874985 H 370.41666 V 206.25882 H 0 Z"
        id="rect852"
-       sodipodi:insensitive="true"
        inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="52.284008"
-       y="115.09895"
-       id="text836"><tspan
-         sodipodi:role="line"
-         id="tspan834"
-         x="52.284008"
-         y="115.09895"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.39999962px;font-family:Gotham;-inkscape-font-specification:'Gotham Bold';text-align:start;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px">SHITTY LOGOS</tspan></text>
-    <text
-       id="text848"
-       y="134.61615"
-       x="52.284008"
-       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:Gotham;-inkscape-font-specification:'Gotham Bold';text-align:start;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
-         y="134.61615"
-         x="52.284008"
-         id="tspan846"
-         sodipodi:role="line">Elaboration on a Faecal Motif</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot871"
-       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:16px;line-height:25px;letter-spacing:0px;word-spacing:0px;text-anchor:middle;text-align:center"><flowRegion
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:25px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion873"><rect
            id="rect875"
            width="384.86813"
            height="212.13203"
            x="462.64987"
            y="492.90854" /></flowRegion><flowPara
-         id="flowPara877" /></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot879"
-       style="font-style:normal;font-weight:normal;font-size:16px;line-height:25px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="matrix(0.26458333,0,0,0.26458333,-40.090429,24.664483)"><flowRegion
-         id="flowRegion881"
-         style="fill:#4d4d4d"><rect
-           id="rect883"
-           width="1000.0001"
-           height="358.10678"
-           x="351.52289"
-           y="496.94913"
-           style="fill:#4d4d4d" /></flowRegion><flowPara
-         id="flowPara885"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:41px;font-family:'Gotham Book';-inkscape-font-specification:'Gotham Book, ';text-align:start;text-anchor:start;fill:#4d4d4d">Concerning profanities, the English language is very versatile. One can encounter the f- and s-words in many idioms in daily language, the many combinations uttered not necessarily for the purpose of offending others, but for emphasis and catching attention.</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:41px;font-family:'Gotham Book';-inkscape-font-specification:'Gotham Book, ';text-align:start;text-anchor:start;fill:#4d4d4d"
-         id="flowPara887" /><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:41px;font-family:'Gotham Book';-inkscape-font-specification:'Gotham Book, ';text-align:start;text-anchor:start;fill:#4d4d4d"
-         id="flowPara889">Below are five logos designed for five different idioms containing the s-word.</flowPara></flowRoot>  </g>
+         id="flowPara877" /></flowRoot>    <g
+       id="g844"
+       transform="matrix(0.65720927,0,0,0.65720927,65.340428,22.030233)"
+       style="stroke-width:1.52158535">
+      <text
+         id="text836"
+         y="115.09895"
+         x="52.284008"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4025861px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.39999962px;font-family:Gotham;-inkscape-font-specification:'Gotham Bold';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.4025861px"
+           y="115.09895"
+           x="52.284008"
+           id="tspan834"
+           sodipodi:role="line">SHITTY LOGOS</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:6.61458302px;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4025861px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="52.284008"
+         y="134.61615"
+         id="text848"><tspan
+           sodipodi:role="line"
+           id="tspan846"
+           x="52.284008"
+           y="134.61615"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:Gotham;-inkscape-font-specification:'Gotham Bold';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.4025861px">Elaboration on a Faecal Motif</tspan></text>
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-40.090429,24.664483)"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:25px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.52158535px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot879"
+         xml:space="preserve"><flowRegion
+           style="fill:#000000;stroke-width:1.52158535px"
+           id="flowRegion881"><rect
+             style="fill:#000000;stroke-width:1.52158535px"
+             y="496.94913"
+             x="351.52289"
+             height="358.10678"
+             width="1000.0001"
+             id="rect883" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:41px;font-family:'Gotham Book';-inkscape-font-specification:'Gotham Book, ';text-align:start;text-anchor:start;fill:#000000;stroke-width:1.52158535px"
+           id="flowPara885">Concerning profanities, the English language is very versatile. One can encounter the f- and s-words in many idioms in daily language, the many combinations uttered not necessarily for the purpose of offending others, but for emphasis and catching attention.</flowPara><flowPara
+           id="flowPara887"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:41px;font-family:'Gotham Book';-inkscape-font-specification:'Gotham Book, ';text-align:start;text-anchor:start;fill:#000000;stroke-width:1.52158535px" /><flowPara
+           id="flowPara889"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:41px;font-family:'Gotham Book';-inkscape-font-specification:'Gotham Book, ';text-align:start;text-anchor:start;fill:#000000;stroke-width:1.52158535px">Below are five logos designed for five different idioms containing the s-word.</flowPara></flowRoot>    </g>
+  </g>
 </svg>
