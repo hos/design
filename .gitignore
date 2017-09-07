@@ -1,5 +1,9 @@
 *.ai
 *.pdf
 *.png
+*.PNG
+*.JPG
+*.jpe
+*.jpg
 *~
 .*~
