@@ -8,3 +8,14 @@
 *~
 .*~
 .dropbox
+*.aux
+*.toc
+*.dvi
+*.ps
+*.log
+*.out
+\#*\#
+*.pdf_tex
+*.ttf
+*.otf
+*.epub

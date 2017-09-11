@@ -1,0 +1,371 @@
+\documentclass[a5paper,13pt]{scrbook}
+
+\usepackage[T1]{fontenc}
+\usepackage[turkish]{babel}
+\usepackage[utf8]{inputenc}
+
+\addtokomafont{disposition}{\rmfamily}
+
+\usepackage{microtype}
+
+% \newcommand{\sectionbreak}{\clearpage}
+% \addtokomafont{section}{\clearpage\centering}
+% \addtokomafont{chapter}{\clearpage\centering}
+
+% \RedeclareSectionCommand[
+%   beforeskip=-1sp,
+%   afterskip=2\baselineskip]{chapter}
+
+\pagestyle{plain}
+
+
+% Fonts
+% \usepackage[T1]{fontenc}
+% \usepackage{unicode-math}
+% \setmainfont{cm}
+% \usepackage{tipa}
+
+% \usepackage{ebgaramond}
+
+\usepackage{fontspec}
+% \fontspec[Path = ./fonts/] { }
+
+\setmainfont
+[Path = ./fonts/,
+%
+% Scale=1,
+% BoldFont = texgyrepagella-bold.otf,
+% ItalicFont = texgyrepagella-italic.otf,
+% BoldItalicFont = texgyrepagella-bolditalic.otf]
+% {texgyrepagella-regular.otf}
+%
+% BoldFont = BaskervilleMTStd-Bold.otf,
+% ItalicFont = BaskervilleMTStd-Italic.otf,
+% BoldItalicFont = BaskervilleMTStd-BoldIt.otf]
+% {BaskervilleMTStd-Regular.otf}
+%
+BoldFont = ACaslonPro-Bold.otf,
+ItalicFont = ACaslonPro-Italic.otf,
+BoldItalicFont = ACaslonPro-BoldItalic.otf]
+{ACaslonPro-Regular.otf}
+%
+% BoldFont = SabonLTStd-Bold.otf,
+% ItalicFont = SabonLTStd-Italic.otf,
+% BoldItalicFont = SabonLTStd-BoldItalic.otf]
+% {SabonLTStd-Roman.otf}
+%
+% BoldFont = MinionPro-Bold.otf,
+% ItalicFont = MinionPro-It.otf,
+% BoldItalicFont = MinionPro-BoldIt.otf]
+% {MinionPro-Regular.otf}
+%
+% BoldFont = BemboStd-Bold.otf,
+% ItalicFont = BemboStd-Italic.otf,
+% BoldItalicFont = BemboStd-BoldItalic.otf]
+% {BemboStd.otf}
+
+\author{\textsc{Oğuz Atay}}
+\title{TUTUNAMAYANLAR}
+\date{}
+
+\begin{document}
+\maketitle
+
+\chapter*{Önsöz}
+
+Şaksiper Kimdir, Eseri Nedir? Yıllar önce yayımlanmış bir broşürün adıydı bu. Ne
+yazık ki artık adını hatırlayamadığım müellifi, ünlü İngiliz yazarını şöyle
+15-20 sayfalık küçük ama yoğun bir broşürle anlatıyordu. Kitapçığın kapağında
+``Şaksiper''in resmi bile vardı.
+
+Oğuz Atay'ın hayatını ve eserlerini kapsayan bir önsöz yazmak çabası da işte bu
+``adsız'' araştırmacınınki kadar acıklı ve tuhaf görünüyor bana. Zaten Oğuz
+Atay'ın kendisi de, pek çok kurumun yanı sıra ``önsöz''leri tefe koyup yerlebir
+etmişti. Biraz sonra ayrıntısıyla okuyacağınız gibi, Tutunamayanlar'da şöyle
+diyor meselâ:
+
+```Hayatı ve eserleri'. Hiç bıkmıyorum bunları tekrar tekrar okumaktan. Yazarın
+her kitabını okurken `Hayatı ve Eserleri' yeniden karşıma çıkıyor. Bir daha, bir
+daha okuyorum. Sanki önceden `Hayatı ve Eserleri'ni bilmiyormuş gibi yapıyorum:
+yeni baştan heyecanlanmak için. Yalnız, yazarlar arasında bir birlik bulunmaması
+beni yoruyor. Hiç olmazsa önsözleri yazanlar, yılda bir kere toplanmalı ve
+aralarında ortak esaslar tespit etmeli. Bugünkü durum esef verici. Bakıyorsun
+bir yazar, çok zor birleştiriyor kelimeleri. Bir türlü cümleleri kuramıyor. Öyle
+diyor önsöz amca. Geçer karatahtanın başına diyor, yazar, bozar, uğraşır. Bütün
+bunları da yarı karanlıkta yapar. İstediği cümleyi bulunca da koşar, bütün
+ışıkları yakar. Ben de tam bu üstadın huylarını benimsemek üzereyken, bir önsöz
+daha geçiyor elime. Bu önsöz de yazarın coşkun bir ırmak gibi yazdığını
+anlatıyor. Kendisini tutamıyor bu adam: bıraksan günde yüz sayfa yazacak. (...)
+Kime hizmet edeceğimi şaşırıyorum. Onlara uşaklık etmekte zorluk çekiyorum. Biri
+İnsanlardan kaçıyor, öteki bir dakika yalnız kalamıyor. Sonunda hükümet el
+koyacak bu işe. Hepsine haddini bildirecek. Bizi zehirlemeye ne hakları var.''
+
+Herhalde bana katılıyorsunuz artık, Oğuz Atay'a önsöz yazmak, başa çıkılacak
+gibi bir iş değil. Öte yandan, insanın imzasının Oğuz Atay'ın kitabında yer
+almasının vereceği hoşluk duygusu ve bir de `ben bu işin altından kalkarım nasıl
+olsa' düşüncesiyle (ya da düşüncesizliğiyle) ön sayfalar için önceden yer
+ayırtmış olmanın verdiği kaçınılmazlık var.
+
+Oğuz Atay ölümünden önceki yedi yıl süresince âdeta hummalı bir tempoda
+çalışarak birbiri ardından çeşitli dallarda birçok eser verdiyse de, sağlığında
+yeterince tanınmıştı denemez. Hatta, ölümünden altı yıl sonra günışığına
+çıkarılan o eşsiz günlüğünde kendisinin daha ``yaşarken unutulduğu''nu söylüyor.
+Bunun sebebi şu olabilir:
+
+Aydın ``sınıfı'' içinde yer alıyordu Oğuz Atay ve o sınıfın derinlemesine
+tahlilini yapıyordu. Biraz karamsar, biraz acı, çokça güldürücü... aydınsı bir
+tahlil işte. Tüm romanlarının, öykülerinin ve oyununun ana konusunu bu meselenin
+oluşturduğu söylenebilir. Öylesine bir irdelemedir ki bu, sonunda ortaya hiç de
+küçümsenmeyecek boyutta bir ``aydınlar destanı'' çıkmıştır. Hatta bir ``aydınlar
+marşı'' değilse bile, tutmuş, ``Şarkılar''ı yazmıştır Oğuz Atay. Durum bu noktada
+çatallaşmaktadır işte. Bütün bunları okuyan ``aydın''lar, birdenbire billur bir
+boy aynasında çırılçıplak buluverirler kendilerini. Korkunç bir durum canım,
+utanç verici. Üstüne üstlük, sahnenin ortalık yerine öyle durup dururken pat
+diye düşüveren bu mühendis bozması çok da iyi yazmıyor muydu size. Alın bakalım.
+
+Kötü bir rüya gibi bir şeydi bu. Bir karabasan bile sayılabilirdi. Gözlerimizi
+derhal yeniden yumup, rüyasız, deliksiz, hasetsiz, yeniden uyumaktan başka çare
+yoktu. Allah hepimize rahatlık versin.
+
+Verdi de. Tutunamayanlar'ın ilk cildinin basılmasının üzerinden on beş yıla
+yakın zaman geçti. Yaşantının fazlasıyla yoğun ve `olaylı' geçtiği bizimki gibi
+ülkelerde on beş yıl bir ömre bedeldir.
+
+İşte bir ömrü tamamladık biz de ve işte yeni ve sağlıklı bir kuşak yetiştirdik
+bu arada pırıl pırıl umutlarla. Sağlıklı diyorum, çünkü Oğuz Atay'ın eseriyle
+ilgili bir de sağlıksız değerlendirme yapılıyordu gibime geliyor: Yani onun her
+satırına sinmiş olan korkunç mizahı, sanıyorum bazı insanlarda derin bir
+inançsızlığa, cynique bir tavra kaynaklık etti. Bunda biraz haksızlık var. Çünkü
+Oğuz Atay ne denli karamsar ve ölümle içiçe olursa olsun, her zaman biraz umudu
+barındırır içinde; ``canım insanlar'' der hep. Yani, Batıcıl aydın tipini
+bulamazsınız onda, soğuk, alaycı ve hepten inançsız. Onun kitaplarını daha
+sağlam bir değerlendirmeye tabi tutmak için de artık yeterli bir süre geçmiş
+olduğu umulur.
+
+İşte bütün bu sebeplerden ve başka sebeplerden dolayı, ölümünden yedi yıl sonra
+Oğuz Atay'ın yaşama şansı çok artmış durumda.
+
+Bu `önsöz'ü, Atay'ın Günlük'ünü günlük bir gazetede yayımladığımız sıralarda
+yazdığım `önsöz'den bir parça ile bitirmek istiyorum:
+
+O, ömür boyunca hep ``acele etmiş''tir; bu yüzden de hep ``geç kalmış''tır. Sürekli
+bir panik vardır hayatında: Bir kitap okur, bir komedi seyreder, yorulur.
+Birileriyle birlikte olur, derdini anlatamaz, telâşlanır ve incinir. Küçük
+dertler, biryerlere ödenmesi gereken paralar, bazı şeylerin tamir masrafları hiç
+eksik olmaz ve bu panik duygusuna katkıda bulunurlar. Ve hep acele edilir.
+
+Bu acele içinde ölümden mi kaçılıyordur, yoksa kovalanıyor mudur ölüm, orası pek
+belli değildir. Öyle bir kaçmakovalamaca oyunu işte.
+
+Ve işte böyle çılgınca koşuştururken Oğuz, sırtından hiç çıkartmadığı mizah
+zırhının tangırtısı da dünyayı tutar.
+
+Nefes nefese koşarken bize hepimizin derdini anlatmak için üç roman, bir öykü
+kitabı, bir oyun, bir de şu ``kırık'' günlüğü, yani beşbuçuk yapıtı bırakan bir
+adamı unutmak birçok kişinin işine gelebilir belki, ama onu ``unutturmak'', işte o
+biraz zor olabilir. Ne yapılsa nafile bence; perde yeniden açılıyor işte.
+
+Oğuz Atay, gerçeğin bağrından filizlenen oyundan, oyunun uzandığı ölümden, ölüm
+duyusundan doğan yaşantı damlasından, gözyaşında titreşen çılgın kahkahadan,
+delilikte tüneyen akıldan, akıldan türeyen gönülden örülmüş o çok gülünçlü ve
+çok acıklı dünyası ile Türk aydınını ve her şeyi yeniden kapsayacaktır yakında.
+
+\begin{flushright}
+  ÖMER MADRA
+
+  Şubat 1984, İstanbul
+\end{flushright}
+
+
+% \flushleft
+\part*{Birinci Bölüm}
+
+\chapter{}
+
+Olay, XX. yüzyılın ikinci yarısında, bir gece, Turgut'un evinde başlamıştı. O
+zamanlar daha Olric yoktu, daha o zamanlar Turgut'un kafası bu kadar karışık
+değildi. Bir gece yarısı evinde oturmuş düşünüyordu. Selim, arkasından bir de
+herkesin bu durumlarda yaptığı gibi, mektuba benzer bir şey bırakarak, bu
+dünyadan birkaç gün önce kendi isteğiyle ayrılıp gitmişti. Turgut, bu mektubu
+çalışma masasının üstüne koymuş, karşısında oturup duruyordu. Selim'in titrek
+bir yazıyla karaladığı satırlar gözlerinin önünde uçuşuyordu. Harflerin arasında
+arkadaşının uzun parmaklarını seçer gibi oluyor, okuduğu kelimelerle birlikte
+onun kalın ve boğuk sesini duyduğunu sanıyordu.
+
+O zamanlar, henüz, Olric yoktu; hava raporları da günlük bültenlerden sonra
+okunmuyordu. Henüz durum, bugünkü gibi açık ve seçik, bir bakıma da belirsiz
+değildi.
+
+``Bu mektup, neden geldi beni buldu?'' diye söyleniyordu hafifçe. Demek, hafifçe
+söylenme alışkanlığı, o zamana kadar uzanıyordu. Demek, kendi kendine konuşma o
+gece yarısı başlamıştı. Çevresindeki eşyaya duyduğu öfkenin ifade edilemeyen
+sıkıntısıyla bunalıyordu. Selim, belki bu yaşantıyı, önde bir salonsalamanje,
+arkada iki yatak odası, koridorun sağında mutfaksandık odasıbanyo, içerde uyuyan
+karısı ve çocukları, parasıyla orantılı olarak yararlandığı küçük burjuva
+nimetleri onu, nefes alamaz bir duruma getirmişti diye tanımlayabilirdi. Turgut,
+anlamsız bakışlarla süzüyordu çevresini henüz. Duvarlar, resim yaptığı dönemden
+kalma `eserler'le doluydu. Nermin çerçeveletmiş hepsini; benimle öğünüyor.
+``Resimlerini çerçeveletmişsin, iyi olmuş,'' demişti Selim. ``Ben değil, karım,''
+diye karşılık vermişti. Karısı odada yoktu. Bir resim aşağıda, bir resim
+yukarıda; bir duvar resimle doldurulmuş, bir duvarın yarısı boş: simetriyi
+bozmak için. Efendim? Efendim, derdi Selim olsaydı son heceye basarak. Ev sahibi
+de kızmıştı duvarların bu renge boyandığını görünce ama belli etmemişti. Tavana
+kadar aynı renk, böylece düzlemler daha kesin beliriyor, modern sanatın burjuva
+yaşantısına katkısı. Efendim? Oysa, ne güzeldi eskiden: tavana bir karış kala,
+bir parmak kalınlığında koyu renk, yatay bir çizgi çizilirdi; duvarın rengi
+orada biterdi işte. Selimlerin Ankara'daki evinde öyleymiş. Tek parti devrinin
+kalıntısı, fazla askeri bir düzen. O günlerde tavana kadar yükselen kitaplıklar
+yoktu herhalde; yatay çizgi kaybolurdu kitapların arkasında böyle olsaydı.
+
+İsteksiz bir kımıldanışla yerinden kalktı, kitaplığının karşısına geçti. Selim'e
+özenerek alınan kitaplar; yüzlerce kitap, çoğu hiç okunmamış duruyordu öylece.
+``Hiç evden çıkmadan beş yıl sürekli okusan, belki biter bu kitaplar,'' demişti
+Selim. Ne demek? İçinde birden, hepsini okuyup bitirme ateşi yandı: kitapları
+her görüşünde yanan eski ateş. Kaç sayfa eder hepsi? Bin sayfa, beş bin sayfa,
+on bin sayfa. Bir sayfa kaç dakikada okunur, yemek ve uyku saatleri çıkarılırsa
+geriye günde kaç saat kalır, cumartesi, pazar ve bayramlar için daha uzun süre
+konursa... istersem yutarım hepsini. Okuldaki günleri aklına geldi: böyle,
+hırsla eline aldığı kitapların beş on sayfasını okuduktan sonra içinin bir balon
+gibi söndüğünü hatırladı. Bir kitabı bırakır ötekine saldırırdı. Bu ümitsizce
+çırpınış, bütün kitapların yüzüstü bırakılmasıyla sona erer, büyük bir utanç ve
+hayata dönüş buhranları gelirdi arkasından.
+
+Kitaplığının önünden zorla ayırdı kendini: oyuna gelmeyelim yeniden. Aynı
+zamanda yatak olabilen kanepeye oturdu ve bir düğmeye basınca içinden sahte
+ağızlıklara sokulmuş sigaralar çıkan kutudan bir sigara alıp Alâettin'in lâmbası
+biçimindeki çakmakla yaktı. Durum, ümit verici değildi: yerdeki halı,
+mobilyalara hiç uymuyordu. Düğün hediyesi. Ne yapalım, istediğimiz gibi halı
+alacak paramız yoktu. Sigarasını, yaprak biçimi gümüş tablada söndürdü. Karım
+kızacak. Bu tablalar neden duruyor öyleyse? Bilinmez. Çalışma masasına yaklaştı.
+Kaya'nın ayrı bir çalışma odası var. Orada ne çalışıyor? Bilinmez. Ben ne
+çalışıyorum? Mektubu okuyorsun ya! Öyle ya. Selim'in yazdığı satırlara eğildi
+yeniden.
+
+Olay, böyle bir ortamda başlamıştı. Aslında, buna olay bile denemezdi. Turgut,
+yani bir bakıma bir zamanlar onun en iyi arkadaşı, olayı gazeteden, yani
+olayları veren bir `organ'dan öğrendiği için, olay diye adlandırılabilirdi bu
+durum. Turgut yeni uyanmıştı: her sabah kapıcının kapının altından attığı
+gazetenin hışırtısını bekliyordu. Sesi duyunca, karısını uyandırmamaya
+çalışarak, uyuşuk hareketlerle terliklerini aramış, sonra, yavaşça `olay'a doğru
+bilmeden yönelmişti. Yedinci sayfada, bir cinayet haberinin sonunu ararken
+birden çarpmıştı `olay' gözüne. Sonra karısı, yatakta sarılarak onu teselli
+etmişti. Bu gece de erken yattı beni rahatsız etmemek için; rahmetliyi dilediğim
+gibi düşünebilmem için. Kendine düşeni yaptı fazlasıyla. Erken yatmasının başka
+bir nedeni de yarınki direksiyon kursu. Ben de yatıp uyumalıyım; herkes yatıp
+uyumuştur. Benden başka kimse, bu mektubun anlamını düşünmüyor. Kaya şimdi
+çalışma odasında olsaydı ne yapardı? Üniversiteli kızların soyunmasını
+seyrederdi. Hele bir tanesi varmış; her gece, her gece bacaklarını duvara
+dayayıp... Karısından gizli, yani kaçamak. Ben de kaçamak yapıyorum şimdi:
+karımdan gizli, Selim'i düşünüyorum. Hayır, gizli değil; biliyor kimi
+düşündüğümü. Gene de bir gizlilik var: ne düşündüğümü, nasıl düşündüğümü
+bilmiyor. Selim'i ve kızların bacaklarını... Selim de olsaydı seyrederdi, ben de
+seyrederdim. Olmuyor; düşünce suçları, kaçamaklar artıyor. Ayağa kalktı,
+salondan çıktı, koridorun duvarına tutunarak karanlığı geçti. Yatak odasının
+kapısını itti; uyuyan karısını seyretti ışığı yakmadan. ``Hayır, hayır.'' İpek
+yorgan hışırdadı, karısı uyanır gibi oldu. ``Uyusaydın artık,'' diye mırıldandı,
+yorganın içinden. ``Biliyorsun...''
+
+Biliyordu: kaçamak sona ermeliydi artık. Turgut, o sırada tehlikeyi göremiyordu:
+gene de bitmesi gerektiğini seziyordu bu olaya olan ilgisinin. Kaya'nın, karşı
+binadaki yarı aralık kırmızı perdelerin arkasını merak etmesinden öte, daha
+büyük bir tehlikeydi bu. Çıplak bir bacağın görüntüsüyle yatışan ilgiden daha
+keskin bir şey: bir düşünce, geriye doğru giden bir merak. Selim olsa, sabaha
+kadar uyumaz, düşünür dururdu. Ben olsam yatardım. Üniversitede okurken de ben,
+gece yarısı olunca yatardım; o, çalışmasını sabaha kadar sürdürürdü. ``Saçların
+dökülüyor, uykusuz çalışmaya dayanamıyorsun; oğlum Turgut, ihtiyarlıyorsun.''
+``Uykusuz kalabilmen sinir kuvvetinden. Benimki adale kuvveti.'' Kollarıyla
+Selim'i soluksuz bırakıncaya kadar sıkardı: ``Sen birden çökeceksin Selim. Çünkü
+neden? Çünkü için boş senin. Birden, kollarımın arasında için boşalacak: birden,
+üçüncü boyutunu kaybedip bir düzlem olacaksın ve ben de seni duvarda bir çiviye
+asacağım.'' Havaya kaldırdığı Selim'i duvara sürüklerdi. Siyah saçlarından
+yakalayarak başını duvara dayar: ``Dökülmeyen saçlarından asacağım seni,'' diye
+bağırırdı. ``Erkeğin kılları göğsündedir, oğlum Selim.'' Hemen gömleğini çıkarır
+ve boynuna kadar bütün gövdesini kaplayan kıllarını gösterirdi Selim'e.
+``İğrençsin Turgut. Sen onları, üniversite kantinindeki kızlara göster. Kapat şu
+ormanı.'' Bir erkeğin yanında soyunmasından sıkılırdı Selim. ``Beni, aşağılara
+çekiyorsun Turgut. Senden kurtulmalıyım.'' Turgut, pantalonunu da çıkarır,
+kollarını açarak bağırırdı: ``Ben, senin bilinçaltı karanlıklarına ittiğin ve
+gerçekleşmesinden korktuğun kirli arzuların, ben senin bilinçaltı ormanlarının
+Tarzan'ı! yemeye geldim seni. Benden kurtulamazsın. Ben, senin vicdan azabınım!''
+``Bağırma, anladık. Benim vicdan azabım bu kadar kıllı olamaz. Ruhbilimci Tarzan,
+lütfen giyin.''
+
+Karısına karşılık vermeden yavaşça yatak odasından çıktı, kapıyı kapadı.
+Koridorda yürürken kollarını havaya kaldırdı: ``Esir, Selim, esir,'' diye
+mırıldandı. Selim'in, zevkle bağıran sesini duyar gibi oldu: ``Yenildin demek,
+koca ayı. Evet, yenildin. Bu yenilginin tarihini hep birlikte bir kez daha
+yaşıyoruz. Kurtuluş Savaşı'nın ateş ve dehşet dolu günlerinden biriydi.
+Mühendishane'yi Berrii Hümayun'un üçüncü sınıfında talebeyken gönüllü olarak
+askere yazılan genç mülazim Selim Efendi, Afyon dolaylarında, Kartaltepe
+mevkiinde, tek başına mevzilenmişti. Düşman kurnaz bir kalabalıktı.
+Mülazımıevvel Selim, boynunda bir kayışla asılı duran dürbünü eldivenlerini
+çıkarmadan eline aldı; gözüne götürdüğü bu optik aletin okülerlerini iki
+parmağının iki zarif hareketiyle çevirerek, görüş alanı içine aldığı düşmanın
+görüntüsünü netleştirdi. Artık bütün hazırlıkları tamamdı; düşman hatlarını
+gözetliyordu. Üsküdar'da, Soğanağası'nda, minimini bir çocukken ahşap
+konaklarının tavan arasında hayal etmiş olduğu an, nihayet gelip çatmıştı.
+`Sadece üç bin kişi', diye söylendi. Sonra, Tarzan gibi `Uuu..' diye üç kere
+bağırdı, yumruklarıyla göğsünü dövdü. Düşman neye uğradığını şaşırmıştı.
+Silahlarını yere atarak kaçıyorlardı. Askerin başındaki Yunan zabiti, Türkün, bu
+gücünü göstermesi karşısında, yerinden bile kımıldayamamıştı; kollarını havaya
+kaldırdı. Avuçlarının içinde eldivenin kapamadığı iki delikten teni
+görünüyordu.'' Turgut: ``Yesir, yesir...'' diye bağırdı. Bir yandan da işaret
+parmağıyla, muhayyel eldivenin boş bıraktığı avuç içi derisini gösteriyordu.
+
+L biçimi salona döndü, maroken taklidi plastikle kaplı rahat koltuğuna oturdu;
+bir düğmeye basarak koltuğu geriye itti. Yakalandın Turgut, kendini eleverdin.
+Neden, Selim? Nasıl olur, tam şirketin muhasebecisinden onbinpeşin yirmibeşbine
+bir araba almak üzereyken, tam direksiyon kursuna başlayacakken, tam bir kat
+parası biriktirmenin gerekliliğini düşünürken... beni kandıramazsın Selim, işime
+burnunu sokamazsın. Ben, soğukkanlılığımı korumasını bilirim. Sen söylemez
+miydin `utanmadan, duygusuzluğumla öğündüğümü'. On yıl önce olsaydı, belki biraz
+daha düşünürdüm; belirsiz tehlikelerden korkmazdım. On yıl önce olsaydı,
+Oblomov'u okuduktan sonra beden hareketlerine başlamam gibi, gene bu sarsıcı
+olayla kımıldardım yerimden belki. Kımıldardım da ne yapardım? Hiç. Biraz
+huzursuzluk duyardım herhalde. Eski bir yara yerinin sızlaması gibi bir şey.
+Oblomov'u ve beden hareketlerini unuttum. Kendimi çabuk toparladım. Bilinmeyen
+yüz binlerce kız içinde, üniversite kantininden birini seçtin kendine ve ona
+okuduğu kitapları sordun ve karşında oturup susmasını seyrettin. Evet; öyle oldu
+Selim; ne kötülük görüyorsun bu davranışımda? Bir şey dediğim yok, Turgut.
+Evlenirken de bir şey söyledim mi? Bize çok uğramadın evlendikten sonra. Size
+mi? Siz kimsiniz? Ben, Nermin, çocuklar... Ben sizi bilmiyorum, seni tanıyorum.
+Evinize alışamadım herhalde. Eşyalarınıza alışamadım, yadırgadım onları.
+Salonsalamanjeyi, deniz gibi büyük ve kauçuk köpüklü yatağı olan karyolayı, aynı
+takımın yaldızlı gardrobunu ve gene aynı takımın şifonyerini ve gene aynı
+takımın tuvaletini sevemedim. Evinizde Türkçe bir şey kalmamıştı. Bana anlayış
+gösterecek yerde büfeyi gösterdin. Kelime oyunu yapıyorsun Selim. Benim bütün
+işim oyundu, bunu biliyorsun Turgut. Hayatım, ciddiye alınmasını istediğim bir
+oyundu. Sen evlendin ve oyunu bozdun. Bütün hayatımca nasıl oynayabilirdim? Sen
+de dayanabildin mi? Sen de ürkütücü bir gerçekle bozdun bu oyunu. Herkesin
+belirli bir işle uğraştığı bu kocaman dünyada yalnız başına oradan oraya
+sürüklendin canım kardeşim benim. Necati'nin işi oyun yazmaktı. Küçük burjuva
+alışkanlıklarını yeren son oyununu hatırlıyor musun? Oyunun yarısında çıkmıştım.
+Sen bütün oyunların yarısında çıktın aslında. Necati'nin oyunu dört yüz elli
+kere oynandı ve Necati de bir kat aldı kazandığı parayla. Senin işin neydi
+onların arasında? Ne yapıyordun? Hiçbir işim yoktu. Bu nedenle sevmezlerdi seni
+işte. Bu nedenle aldırmadılar sana. Senin ne işin vardı orada? Herkesin işine
+karıştın, işin olmadığı halde. Ölmek bile, kendilerine böyle bir görev
+verilenlerin işidir. Kendine oyunlar buldun: başkalarının katılıp katılmadığına
+aldırmadığın oyunlar. Herkesi yargıladın bu oyunlarda. Bu arada beni de
+yargıladın, bana da haksızlık ettin. Ben de bir oyun yazsam, sonunda haklı
+çıkmak için kendini öldürdüğünü söylesem... Bu oyunu sevmedim Turgut. Ben,
+oyunlarda bana saldırılmasını sevmem. Ben oyun istemiyorum artık; ne oyun ne de
+gerçek, senin ölmen gibi bir gerçek, beni sarsmamalı Selim. Ayağa kalktı. İnsan
+gerçeklere karşı durur: yaşar ve olduğu gibi olmayı sürdürür Selim. Ayrıca, bu
+mektubu bana yollamadın, bana böyle bir görev verilmedi. Benim işim değil bu.
+Benim işim değil. Mektubunu on kere okudum, bir sonuca varamadım. Başka türlü
+bir yaşantın olabilirdi Selim. Seni istemeyenlerin dışında bir düzen
+kurabilirdin.
+
+``Bu sözlerimle belki birşeyler kaybediyorum Selim,'' diye yüksek sesle söylendi.
+Saat üçe geliyordu; Turgut'un kafası karışıyordu. Olayın iyi başlamadığını
+seziyordu. Neye göre iyi? Bilemiyordu. ``Benim işim değil,'' diye mırıldanarak
+yatak odasına doğru yürüdü.
+
+\section*{}
+
+
+
+
+\end{document}
+
